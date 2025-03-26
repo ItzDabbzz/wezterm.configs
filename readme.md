@@ -1,5 +1,9 @@
 # Wezterm Keybinds
 
+## Requirements
+- [JetBrainsMono](https://www.nerdfonts.com/font-downloads)
+- [Wezterm](https://wezterm.org/)
+
 ## Basic Reminders
 - **Leader** = <kbd>CTRL</kbd> + <kbd>A</kbd>
 
