@@ -18,20 +18,19 @@ local colors = config.colors
 if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
-bar.apply_to_config(config,
-  {
-    modules = {
-      spotify = {
-        enabled = true
-      }
-    }
-  })
+bar.apply_to_config(config, {
+	modules = {
+		spotify = {
+			enabled = true,
+		},
+	},
+})
 -- This is where you actually apply your config choices
 config.font = wezterm.font_with_fallback({
 	"JetBrainsMono Nerd Font Mono",
 	"SpaceMono Nerd Font",
 })
-config.font_size = 11
+config.font_size = 9
 config.launch_menu = launch_menu
 -- makes my cursor blink
 config.default_cursor_style = "BlinkingBar"
@@ -81,10 +80,10 @@ config.colors = {
 			bg_color = "#585b70",
 			fg_color = "#a6adc8",
 		},
-    inactive_tab = {
-      bg_color = "#313244",
-      fg_color = "#a6adc8"
-    },
+		inactive_tab = {
+			bg_color = "#313244",
+			fg_color = "#a6adc8",
+		},
 		-- The color of the inactive tab bar edge/divider
 		inactive_tab_edge = "#9399b2",
 	},
